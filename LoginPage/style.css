@@ -1,0 +1,65 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    background-color:blue;
+    background-image: linear-gradient(to right, blue , aqua);
+    }
+    
+    .container{
+    width:350px;
+    height:50%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background-color:white;
+    border-radius:20px;
+    box-shadow:4px 4px 4px blue;
+    }
+    
+    h2{
+    padding-top:30px;
+    }
+    
+    h2, p{
+    text-align:center;
+    }
+    
+    input[type="text"], input[type="password"] {
+    border:1px solid black;
+    background:white;
+    display:block;
+    margin:15px auto;
+    text-align:left;
+    outline:none;
+    border-radius:10px;
+    height:25px;
+    width:248px;
+    padding:10px;
+    }
+    
+    a, p{
+    color:gray;
+    }
+    
+    a{
+    color:gray;
+    font-size:13px;
+    text-decoration:none;
+    padding-left:45px;
+    }
+    
+    input[type="submit"]{
+    border:1px solid blue;
+    background:blue;
+    display:block;
+    margin:auto;
+    text-align:center;
+    outline:none;
+    color:white;
+    border-radius:10px;
+    height:45px;
+    width:270px;
+    background-image: linear-gradient(to right, blue , aqua);
+    }
